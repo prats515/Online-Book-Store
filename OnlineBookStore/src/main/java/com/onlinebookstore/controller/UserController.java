@@ -31,9 +31,17 @@ public class UserController {
 	@PostMapping("/registrationmethod")
 	public String registerUserAccount(@ModelAttribute("user") UserDto registrationDto) {
 		userService.saveUser(registrationDto);
-		return "a";
+		return "redirect:/registration?success";
 	}
-	
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+
+	@GetMapping("/")
+	public String home() {
+		return "index";
+	}
 
 //	@PostMapping("/registration")
 //	public ResponseEntity<Customer> saveEmployeeDetails(@RequestBody UserDto user) throws Exception {
@@ -41,14 +49,14 @@ public class UserController {
 //		return new ResponseEntity<>(employee1, HttpStatus.OK);
 //	}
 //
-//	@PostMapping("/user_login")
-//	public ResponseEntity<UserLogin> employeesLogin(@RequestBody UserLogin userLogin) throws Exception {
-//		UserLogin users = userService.userLogin(userLogin);
-//		if (users == null) {
-//			return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
-//		}
-//		return new ResponseEntity<>(users, HttpStatus.OK);
-//	}
+/*	@PostMapping("/user_login")
+	public ResponseEntity<UserLogin> employeesLogin(@RequestBody UserLogin userLogin) throws Exception {
+		UserLogin users = userService.userLogin(userLogin);
+		if (users == null) {
+			return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
+		}
+		return new ResponseEntity<>(users, HttpStatus.OK);
+	}*/
 //
 //	@GetMapping("/getusers")
 //	public String getAllUsers(Model model) {
