@@ -1,0 +1,16 @@
+Index: OnlineBookStore/src/main/java/com/onlinebookstore/OnlineBookStoreApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.onlinebookstore;\n\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication\npublic class OnlineBookStoreApplication {\n\n\tpublic static void main(String[] args) {\n\t\tSpringApplication.run(OnlineBookStoreApplication.class, args);\n\t}\nbcvvbc\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/OnlineBookStore/src/main/java/com/onlinebookstore/OnlineBookStoreApplication.java b/OnlineBookStore/src/main/java/com/onlinebookstore/OnlineBookStoreApplication.java
+--- a/OnlineBookStore/src/main/java/com/onlinebookstore/OnlineBookStoreApplication.java	(revision 994894ef13558e5b43fe62568b403bf556599e50)
++++ b/OnlineBookStore/src/main/java/com/onlinebookstore/OnlineBookStoreApplication.java	(date 1695448152737)
+@@ -9,5 +9,4 @@
+ 	public static void main(String[] args) {
+ 		SpringApplication.run(OnlineBookStoreApplication.class, args);
+ 	}
+-bcvvbc
+ }
