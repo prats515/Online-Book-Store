@@ -5,80 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c4047a-7b04-496a-99a3-8bd30d5f9055" name="Changes" comment="Untracked Local Files">
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/default-skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/meanmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/banner-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/call-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/call-icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/client-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/fb-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/footer-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/img-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/instagram-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/linkedin-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/mail-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/mail-icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/map-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/search-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/twitter-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/jquery-3.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/modernizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/js/slider-setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/repo/CartRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/Hindi-Cvr-Bhagavad-gita.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/IMG_2416.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/Pratiks Img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/Shivaji- The Great Maratha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/book-img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/chanakya.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/download (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/download (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/download.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/images/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/books.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/repo/CustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -118,18 +68,22 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2Vmh4P4R2blKsAEkLcosvgwDykS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/pratiksonawane/eclipse-ws/Online-Book-Store"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pratiksonawane/eclipse-ws/Online-Book-Store&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="OnlineBookStoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onlinebookstore.OnlineBookStoreApplication" />
@@ -166,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695448236429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Untracked Local Files">
+      <created>1695496521308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695496521308</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +142,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Untracked Local Files" />
     <option name="LAST_COMMIT_MESSAGE" value="Untracked Local Files" />
   </component>
