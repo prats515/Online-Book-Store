@@ -1,0 +1,8 @@
+package com.onlinebookstore.service;
+
+import com.onlinebookstore.entity.Book;
+import com.onlinebookstore.entity.Cart;
+
+public interface CartService {
+    Cart addToCart(Book book);
+}
