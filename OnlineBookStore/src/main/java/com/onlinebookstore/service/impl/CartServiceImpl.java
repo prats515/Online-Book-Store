@@ -1,19 +1,19 @@
 package com.onlinebookstore.service.impl;
 
-import com.onlinebookstore.entity.Book;
-import com.onlinebookstore.entity.Cart;
-import com.onlinebookstore.entity.Customer;
-import com.onlinebookstore.entity.UserDto;
+import com.onlinebookstore.entity.*;
 import com.onlinebookstore.repo.CartRepo;
 import com.onlinebookstore.service.CartService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
+@Service
 public class CartServiceImpl implements CartService {
 
     @Bean
-    public ModelMapper modelMapper() {
+    public ModelMapper modelMapper1() {
         ModelMapper modelMapper = new ModelMapper();
         return modelMapper;
     }
@@ -21,14 +21,20 @@ public class CartServiceImpl implements CartService {
     private CartRepo cartRepo;
 
     @Override
-    public void addToCart(Book book) {
+    public Cart addBookToCart(Book book) {
         Cart c=bookToCart(book);
-        cartRepo.save(c);
+        Cart cart = null;
+        Cart itemInCart = cartRepo.searchById(book.getBookId());
+        if(itemInCart == null){
+            return cart = cartRepo.save(c);
+        }else{
+            new Exception("Item already exist");
+        }
         return null;
     }
 
 
     private Cart bookToCart(Book book) {
-        return modelMapper().map(book, Cart.class);
+        return modelMapper1().map(book, Cart.class);
     }
 }

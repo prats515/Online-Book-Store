@@ -3,6 +3,10 @@ package com.onlinebookstore.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.onlinebookstore.entity.Book;
@@ -18,21 +22,21 @@ public class BookServiceImpl implements BookService{
 	
 	@Override
 	public Book saveBook(Book book) {
-		// TODO Auto-generated method stub
 		Book b= null;
 		Book existingBook = bookRepo.getById(book.getBookId());
 		if(existingBook == null){
             return b = bookRepo.save(book);
         }else{
-              new Exception("User already exist");
+              new Exception("Book already exist");
         }
 	return null;
 	}
 	
 	@Override
-	public List<Book> getAllBooks(){
-		return bookRepo.findAll();
+	public Page<Book> getAllBooks(int pageNo, int pageSize, String sortField, String sortDirection){
+		Sort sort= sortDirection.equalsIgnoreCase(Sort.Direction.ASC.name()) ? Sort.by(sortField).ascending():
+				Sort.by(sortField).descending();
+		Pageable pageable= PageRequest.of(pageNo -1, pageSize, sort);
+		return bookRepo.findAll(pageable);
 	}
-	
-
 }

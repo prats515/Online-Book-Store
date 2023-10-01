@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-@Configuration
+
 public class SecurityConfig  {
 @Bean
 public AuthenticationManager authenticationManager(PasswordEncoder passwordEncoder, UserDetailsService userDetailsService) {
@@ -31,6 +31,7 @@ public AuthenticationManager authenticationManager(PasswordEncoder passwordEncod
 				"/registration**",
 				"/js/**",
 				"/css/**",
+				"/addToCart",
 				"/img/**").permitAll().anyRequest().authenticated()
 				.and().formLogin().loginPage("/login")
 				.permitAll()

@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="ISO-8859-1">
-  <title>Employee Management System</title>
+  <title>Online-Book-Store</title>
 
   <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -13,35 +13,35 @@
 <body>
 
 <div class="container my-2">
-  <h1>Employees List</h1>
+  <h1>Books List</h1>
 
-  <a th:href = "@{/showNewEmployeeForm}" class="btn btn-primary btn-sm mb-3"> Add Employee </a>
+  <a th:href = "@{/show_new_book_form}" class="btn btn-primary btn-sm mb-3"> Add Book </a>
 
   <table border="1" class = "table table-striped table-responsive-md">
     <thead>
     <tr>
       <th>
-        <a th:href="@{'/page/' + ${currentPage} + '?sortField=firstName&sortDir=' + ${reverseSortDir}}">
-          Employee First Name</a>
+        <a th:href="@{'/page/' + ${currentPage} + '?sortField=bookName&sortDir=' + ${reverseSortDir}}">
+          Book Name</a>
       </th>
       <th>
-        <a th:href="@{'/page/' + ${currentPage} + '?sortField=lastName&sortDir=' + ${reverseSortDir}}">
-          Employee Last Name</a>
+        <a th:href="@{'/page/' + ${currentPage} + '?sortField=authorName&sortDir=' + ${reverseSortDir}}">
+          Author Name</a>
       </th>
       <th>
-        <a th:href="@{'/page/' + ${currentPage} + '?sortField=email&sortDir=' + ${reverseSortDir}}">
-          Employee Email</a>
+        <a th:href="@{'/page/' + ${currentPage} + '?sortField=summary&sortDir=' + ${reverseSortDir}}">
+          Book Price</a>
       </th>
       <th> Actions </th>
     </tr>
     </thead>
     <tbody>
-    <tr th:each="employee : ${listEmployees}">
-      <td th:text="${employee.firstName}"></td>
-      <td th:text="${employee.lastName}"></td>
-      <td th:text="${employee.email}"></td>
-      <td> <a th:href="@{/showFormForUpdate/{id}(id=${employee.id})}" class="btn btn-primary">Update</a>
-        <a th:href="@{/deleteEmployee/{id}(id=${employee.id})}" class="btn btn-danger">Delete</a>
+    <tr th:each="book : ${bookslist}">
+      <td th:text="${book.bookName}"></td>
+      <td th:text="${book.authorName}"></td>
+      <td th:text="${book.price}"></td>
+      <td> <a th:href="@{/showFormForUpdate/{id}(id=${book.id})}" class="btn btn-primary">Update</a>
+        <a th:href="@{/deleteBook/{id}(id=${book.id})}" class="btn btn-danger">Delete</a>
       </td>
     </tr>
     </tbody>

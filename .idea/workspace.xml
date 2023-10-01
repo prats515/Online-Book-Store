@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c4047a-7b04-496a-99a3-8bd30d5f9055" name="Changes" comment="Cart implementing.">
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/bookservice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/new_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/CartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/repo/CartRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/repo/CartRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/entity/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/entity/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/com/onlinebookstore/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBookStore/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +59,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.30/spring-context-5.3.30-sources.jar!/org/springframework/ui/Model.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,15 +83,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pratiksonawane/eclipse-ws/Online-Book-Store&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/pratiksonawane/Documents/GitHub/Online-Book-Store",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="OnlineBookStoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onlinebookstore.OnlineBookStoreApplication" />
@@ -134,5 +162,45 @@
     <MESSAGE value="Untracked Local Files" />
     <MESSAGE value="Cart implementing." />
     <option name="LAST_COMMIT_MESSAGE" value="Cart implementing." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/CartServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/CartServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/impl/CartServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/CartService.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/controller/CartController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/OnlineBookStore/src/main/java/com/onlinebookstore/service/UserService.java</url>
+          <line>9</line>
+          <properties class="com.onlinebookstore.service.UserService" method="saveUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
