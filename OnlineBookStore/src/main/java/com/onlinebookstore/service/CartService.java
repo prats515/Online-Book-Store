@@ -5,4 +5,5 @@ import com.onlinebookstore.entity.Cart;
 
 public interface CartService {
     Cart addBookToCart(Book book);
+    public Cart addBookToCart(String bookId);
 }

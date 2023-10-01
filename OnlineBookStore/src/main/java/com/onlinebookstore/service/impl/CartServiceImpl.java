@@ -1,6 +1,7 @@
 package com.onlinebookstore.service.impl;
 
 import com.onlinebookstore.entity.*;
+import com.onlinebookstore.repo.BookRepo;
 import com.onlinebookstore.repo.CartRepo;
 import com.onlinebookstore.service.CartService;
 import org.modelmapper.ModelMapper;
@@ -20,6 +21,9 @@ public class CartServiceImpl implements CartService {
     @Autowired
     private CartRepo cartRepo;
 
+    @Autowired
+    private BookRepo bookRepo;
+
     @Override
     public Cart addBookToCart(Book book) {
         Cart c=bookToCart(book);
@@ -33,6 +37,21 @@ public class CartServiceImpl implements CartService {
         return null;
     }
 
+
+    public Cart addBookToCart(String bookId) {
+        Book book=bookRepo.getById(bookId);
+        Cart cart = null;
+        Cart c= bookToCart(book);
+        Cart itemInCart = cartRepo.searchById(book.getBookId());
+        if(itemInCart == null){
+            return cart = cartRepo.save(c);
+        }else{
+            new Exception("Item already exist");
+        }
+        return null;
+
+
+    }
 
     private Cart bookToCart(Book book) {
         return modelMapper1().map(book, Cart.class);

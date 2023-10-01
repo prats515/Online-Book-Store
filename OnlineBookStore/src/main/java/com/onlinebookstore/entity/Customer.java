@@ -37,9 +37,9 @@ public class Customer {
 	@JoinColumn(name = "Customer_FK")
 	private List<Order> orders;
 
-	@OneToMany(targetEntity = Cart.class, cascade = CascadeType.ALL)
+	/*@OneToMany(targetEntity = Cart.class, cascade = CascadeType.ALL)
 	@JoinColumn(name = "user_Id")
-	private List<Cart> cart;
+	private List<Cart> cart;*/
 
 	public Customer() {
 

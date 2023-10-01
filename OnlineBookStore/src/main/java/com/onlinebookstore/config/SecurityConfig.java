@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-
+@Configuration
 public class SecurityConfig  {
 @Bean
 public AuthenticationManager authenticationManager(PasswordEncoder passwordEncoder, UserDetailsService userDetailsService) {
@@ -27,11 +27,12 @@ public AuthenticationManager authenticationManager(PasswordEncoder passwordEncod
 
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-		http.authorizeHttpRequests().antMatchers(
+		http.csrf().disable().
+				authorizeHttpRequests().antMatchers(
 				"/registration**",
 				"/js/**",
 				"/css/**",
-				"/addToCart",
+				"/cart",
 				"/img/**").permitAll().anyRequest().authenticated()
 				.and().formLogin().loginPage("/login")
 				.permitAll()

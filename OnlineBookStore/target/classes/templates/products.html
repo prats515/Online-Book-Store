@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-#debugger
 <div class="py-3 py-md-5 bg-light">
     <div class="container">
         <div class="row">
@@ -36,11 +35,11 @@
                             <br>
                             <span th:text="${book.price}" class="selling-price"></span>
                         </div>
-                        <form th:href="@{/addToCart}" th:object="${book}" method="post">
-                            <button type="submit" class="btn btn1">
-                                <i class="fa fa-shopping-cart"></i> Add to Cart
-                            </button>
-                        </form>
+
+                        <a action="#" th:href="@{/addCart/{bookId}(bookId=${book.bookId})}">
+                            <button type="submit" class="btn btn1">Add To Cart</button>
+                        </a>
+<!--<a th:href="@{/showFormForUpdate/{id}(id=${employee.id})}" class="btn btn-primary">Update</a>-->
 
                     </div>
                 </div>
