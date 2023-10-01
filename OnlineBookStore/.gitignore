@@ -8,7 +8,7 @@ target/
 workspace.xml
 # BlueJ files
 *.ctxt
-
+../.idea/workspace.xml
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
