@@ -3,7 +3,9 @@
 *.xml
 # Log file
 *.log
-
+*.xml
+target/
+workspace.xml
 # BlueJ files
 *.ctxt
 
