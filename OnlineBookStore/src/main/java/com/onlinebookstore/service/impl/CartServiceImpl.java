@@ -7,9 +7,14 @@ import com.onlinebookstore.service.CartService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 
-import java.util.Arrays;
 @Service
 public class CartServiceImpl implements CartService {
 
@@ -37,11 +42,26 @@ public class CartServiceImpl implements CartService {
         return null;
     }
 
+    @Override
+    public Page<Cart> getAllItems(int pageNo, int pageSize, String sortField, String sortDirection){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String currentUser = authentication.getName();
+        Sort sort= sortDirection.equalsIgnoreCase(Sort.Direction.ASC.name()) ? Sort.by(sortField).ascending():
+                Sort.by(sortField).descending();
+        Pageable pageable= PageRequest.of(pageNo -1, pageSize,sort);
+                Page<Cart> cart= cartRepo.findByUsername(currentUser,pageable);
+        return cart;
+    }
+
+
 
     public Cart addBookToCart(String bookId) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String currentUser = authentication.getName();
         Book book=bookRepo.getById(bookId);
         Cart cart = null;
         Cart c= bookToCart(book);
+        c.setUser(currentUser);
         Cart itemInCart = cartRepo.searchById(book.getBookId());
         if(itemInCart == null){
             return cart = cartRepo.save(c);
@@ -49,11 +69,13 @@ public class CartServiceImpl implements CartService {
             new Exception("Item already exist");
         }
         return null;
-
-
     }
 
     private Cart bookToCart(Book book) {
         return modelMapper1().map(book, Cart.class);
     }
+
+
+
+
 }

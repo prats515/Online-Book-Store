@@ -53,16 +53,7 @@ public class UserServiceImpl implements UserService{
 	        }
 		return null;
 	}
-	@Override
-	public UserLogin userLogin(UserLogin userLogin) {
-        Iterable<Customer> allUser = userRepo.findAll();
-        for (Customer user : allUser) {
-            if (user.getEmail().equals(userLogin.getUsername()) && user.getPassword().equals(userLogin.getPassword())) {
-                return userLogin;
-            }
-        }
-        return null;
-    }
+
 	private  Customer dtoToCustomer(UserDto userDto) {
 		Customer user= modelMapper().map(userDto, Customer.class);
 		return user;
@@ -81,13 +72,5 @@ public class UserServiceImpl implements UserService{
 	private Collection<? extends GrantedAuthority> mapRolesToAuthorities(Collection<Role> roles){
 		return roles.stream().map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList());
 	}
-
-	/*@Override
-	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
-	}*/
-
-
 
 }

@@ -71,7 +71,7 @@ public class UserController {
 	
 	@GetMapping("/registration")
 	private String showRegistrationForm() {
-		return "registration";
+		return "cart";
 	}
 //	@GetMapping("/register")
 //	private String showRegistrationForm(Model model) {

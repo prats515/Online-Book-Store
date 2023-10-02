@@ -53,7 +53,7 @@
                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="bookservice.html">About</a>
+                           <a class="nav-link" th:href="@{/cart}">Cart</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" th:href="@{/books}">Books</a>
@@ -63,7 +63,7 @@
                             sec:authorize="isAuthenticated()"><a class="nav-link"  th:href="@{/logout}">Logout</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="contact.html">Contact Us</a>
+                           <a class="nav-link" href="cart.html">Contact Us</a>
                         </li>
                      </ul>
                      <div class="call_section">
