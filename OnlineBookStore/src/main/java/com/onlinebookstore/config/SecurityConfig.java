@@ -30,6 +30,8 @@ public AuthenticationManager authenticationManager(PasswordEncoder passwordEncod
 		http.csrf().disable().
 				authorizeHttpRequests().antMatchers(
 				"/registration**",
+				"/forgot**",
+				"/sendOtp**",
 				"/js/**",
 				"/css/**",
 				"/cart",
