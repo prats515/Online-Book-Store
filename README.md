@@ -2,8 +2,6 @@
 
 Basic E-commerce application to order books
 
-### To start this project :rocket: -
-
 ### Functionality -
 
 This is a basic online book store app.
